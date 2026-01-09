@@ -1,0 +1,12 @@
+# Demonstration of run-length encoding
+# MR. THEISS!!! = +++ (3 increments)
+# mr. theiss...... = ------ (6 decrements)
+
+# Increment cell by 3
+MR. THEISS!!!
+
+# Decrement cell by 6
+mr. theiss......
+
+# Output the result (3 - 6 = -3, but wrapping to 253 in 8-bit mode)
+Mister Theiss?

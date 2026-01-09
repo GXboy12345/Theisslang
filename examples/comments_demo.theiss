@@ -1,0 +1,11 @@
+# This is a line comment - everything after # is ignored
+
+# Simple increment and output
+MR. THEISS! (this is a parenthetical comment that will be ignored)
+
+Mister Theiss? # output the incremented value
+
+# (This whole block is commented out:
+# MR. THEISS!!
+# Mister Theiss?
+# )

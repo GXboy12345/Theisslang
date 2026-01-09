@@ -1,0 +1,16 @@
+# Simple "Hi!" program
+# Uses loops to output multiple characters
+
+# Output 'H' (72)
+MR. THEISS!!!!!!!!!!!!!!!!!! MR. THEISS!!!!!!!!!!!!!!!!!! MR. THEISS!!!!!!!!!!!!!!!!!! MR. THEISS!!!!!!!!!!!!!!!!!!
+Mister Theiss?
+
+# Clear cell and output 'i' (105)
+Professor Theiss mr. theiss... Student Theiss
+MR. THEISS!!!!!!!!!!!!!!!!!!!!! MR. THEISS!!!!!!!!!!!!!!!!!!!!! MR. THEISS!!!!!!!!!!!!!!!!!!!!! MR. THEISS!!!!!!!!!!!!!!!!!!!!! MR. THEISS!!!!!!!!!!!!!!!!!!!!!
+Mister Theiss?
+
+# Clear cell and output '!' (33)
+Professor Theiss mr. theiss... Student Theiss
+MR. THEISS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Mister Theiss?

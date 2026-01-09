@@ -1,0 +1,19 @@
+# Copy value from cell 0 to cell 1
+# Brainfuck equivalent: [->+<]
+
+# First, put some value in cell 0 (let's say 5)
+MR. THEISS!!!!! (put 5 in cell 0)
+
+# Move to cell 1
+Mr. Theiss
+
+# Now copy from cell 0 to cell 1
+Professor Theiss
+  mr. theiss...    # decrement cell 0
+  Mr Theiss        # move to cell 1
+  MR. THEISS!      # increment cell 1
+  Mr. Theiss       # move back to cell 0
+Student Theiss
+
+# Output both cells
+Mr Theiss Mister Theiss? Mr. Theiss Mister Theiss?

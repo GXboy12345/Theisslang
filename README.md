@@ -37,24 +37,53 @@ See the `examples/` directory for sample programs.
 
 ## Usage
 
+### Using Python Interpreter
+
 ```bash
 # Run a program file
-python theisslang.py examples/cat.theiss
+python3 theisslang.py examples/cat.theiss
 
 # Execute code directly
-python theisslang.py -e "MR. THEISS! Mister Theiss?"
+python3 theisslang.py -e "MR. THEISS! Mister Theiss?"
 
 # Provide input
-python theisslang.py examples/cat.theiss "Hello World"
+python3 theisslang.py examples/cat.theiss "Hello World"
+```
+
+### Using Standalone Executable
+
+First, build the executable:
+
+```bash
+make build
+# or
+python3 build.py
+```
+
+Then use it:
+
+```bash
+# Run a program
+./dist/theisslang examples/hello_world.theiss
+
+# Execute code directly
+./dist/theisslang -e "MR. THEISS! Mister Theiss?"
+
+# With input
+./dist/theisslang examples/cat.theiss "Hello"
+```
+
+### System-wide Installation
+
+```bash
+make install  # Requires sudo
+theisslang examples/hello_world.theiss
 ```
 
 ## Turing Completeness
 
 Theisslang is isomorphic to Brainfuck, which is Turing-complete. Any Brainfuck program can be translated to Theisslang by replacing each BF instruction with its corresponding Theiss token.
 
-Funny
+## License
 
-Why not license this? MIT LICENSE!!
-
-# LICENSES
-MIT LICENSE
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

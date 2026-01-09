@@ -50,7 +50,7 @@ python3 theisslang.py -e "MR. THEISS! Mister Theiss?"
 python3 theisslang.py examples/cat.theiss "Hello World"
 ```
 
-### Using Standalone Executable
+### Using Standalone Executable (Python-based)
 
 First, build the executable:
 
@@ -73,10 +73,33 @@ Then use it:
 ./dist/theisslang examples/cat.theiss "Hello"
 ```
 
+### Using Native Executable (C-based, Recommended)
+
+For maximum performance and minimal size, use the native C version:
+
+```bash
+make build-native  # Builds 34KB native executable
+```
+
+Then use it:
+
+```bash
+# Run a program
+./theisslang-native examples/hello_world.theiss
+
+# Execute code directly
+./theisslang-native -e "MR. THEISS! Mister Theiss?"
+
+# With input
+./theisslang-native examples/cat.theiss "Hello"
+```
+
 ### System-wide Installation
 
 ```bash
-make install  # Requires sudo
+make install       # Python version (8.1MB)
+# or
+make install-native # Native version (34KB, recommended)
 theisslang examples/hello_world.theiss
 ```
 

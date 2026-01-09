@@ -51,3 +51,10 @@ python theisslang.py examples/cat.theiss "Hello World"
 ## Turing Completeness
 
 Theisslang is isomorphic to Brainfuck, which is Turing-complete. Any Brainfuck program can be translated to Theisslang by replacing each BF instruction with its corresponding Theiss token.
+
+Funny
+
+Why not license this? MIT LICENSE!!
+
+# LICENSES
+MIT LICENSE
